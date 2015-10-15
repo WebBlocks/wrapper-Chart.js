@@ -1,0 +1,8 @@
+{
+  "name": "WebBlocks-wrapper-Chart.js",
+  "version": "1.0.2",
+  "dependencies": { 
+    "Chart.js": "1.0.2",
+    "WebBlocks-wrapper-moment.js": "https://github.com/WebBlocks/wrapper-moment.js.git#2.9.0"
+  }
+}
