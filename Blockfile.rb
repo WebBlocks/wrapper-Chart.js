@@ -9,7 +9,7 @@ external_component_block 'Chart.js', path: 'src' do
   block 'charts' do
     dependency core.route
     ['bar','doughnut','line','polarArea','radar'].each do |name|
-      block(name){ js_file "Chart.#{name.capitalize}.js" }
+      block(name){ js_file "Chart.#{name.slice(0,1).capitalize + name.slice(1..-1)}.js" }
     end
   end
 
